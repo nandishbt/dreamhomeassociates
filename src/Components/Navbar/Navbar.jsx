@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul className={Mobilemenu ?'':'hide-mobile-menu'}>
             <li> <Link to='hero' smooth={true} offset={0} duration={500} >Home</Link></li>
             <li> <Link to='Services' smooth={true} offset={-260} duration={500} >Services</Link></li>
-            <li> <Link to='about' smooth={true} offset={-250} duration={500} >About Us</Link></li>
+            <li> <Link to='about' smooth={true} offset={-800} duration={500} >About Us</Link></li>
             <li> <Link to='hero' smooth={true} offset={-250} duration={500} >Testimonals</Link></li>
             <li> <Link to='contact' smooth={true} offset={-250} duration={500} className='btn' >Contact</Link> </li>
         </ul>

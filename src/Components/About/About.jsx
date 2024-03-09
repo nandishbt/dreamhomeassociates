@@ -10,7 +10,7 @@ const About = () => {
   const photoAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    config: { duration: 1000 } // Adjust the duration as needed
+    config: { duration: 5000 } // Adjust the duration as needed
   });
   return (
     <>

@@ -1,0 +1,55 @@
+.insights{
+display: flex;
+
+}
+.insight{
+    margin: 40px 60px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+
+  
+}
+
+/*nedia query  */
+@media(max-width:750px){
+    .insight{
+        margin: 10px 15px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       
+    
+      
+    }
+
+}
+@media(max-width:750px){
+    .insight{
+        margin: 10px 15px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       
+    
+      
+    }
+
+}
+@media(max-width:450px){
+    .insight{
+        margin: 10px 15px;
+        width: 90%;
+        display: block;
+        gap: 10px;
+       
+    
+      
+    }
+    
+
+}
