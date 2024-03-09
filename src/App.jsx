@@ -15,7 +15,7 @@ const App = () => {
       <div className='container'>
         <Title subtitle='Our Services' title='What We Offer' />
         <Services />
-        <Title subtitle='About Us' title='What We Do' />
+        <Title subtitle='About Us' title='Who are we' />
         <About />
         <Title subtitle='Contact Us' title='Get in Touch' />
         <Contact />
