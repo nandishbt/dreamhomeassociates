@@ -63,10 +63,10 @@ a{
   
 }
 
-@media(max-width:450px){
+@media(max-width:650px){
   .displayflex{
+    width: 80%;
     display:inline-block;
-    margin: 0 auto;
     text-align: center;
     /* font-size: 30px */
     
