@@ -1,0 +1,44 @@
+.Services{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Service img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.Service{
+    flex-basis: 31%;
+}
+
+.caption{
+    text-align: center;
+    cursor: pointer;
+}
+
+/* media query */
+@media(max-width:650px){
+    .Services{
+        margin: 40px 0;
+    }
+
+
+}
+@media(max-width:350px){
+    .Services{
+        margin: 0 0;
+    }
+    .Service h2 p{
+        font-size: 12px;
+    }
+
+
+}
+
