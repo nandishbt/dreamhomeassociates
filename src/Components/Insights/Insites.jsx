@@ -21,7 +21,7 @@ const Insites = ({Num,Headline}) => {
     <>
     <div className='insights'>
         <div className='insight'>
-            <h1>{Headline}</h1>
+            <p>{Headline}</p>
             <div ref={ref}>
             <animated.div>
             {number.interpolate((val) => Math.floor(val))}
