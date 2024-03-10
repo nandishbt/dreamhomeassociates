@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero-text">
             <h1>DREAM HOME ASSOCIATES</h1>
             <p>Welcome to Dream Home Associates,your trusted partner in achieving your dream of homeownership and beyond</p>
-            <button className='btn'>Explore more <img src={dark} /></button>
+            {/* <button className='btn'>Explore more <img src={dark} /></button> */}
         </div>
     </div>
   )
