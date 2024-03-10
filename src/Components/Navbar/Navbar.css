@@ -26,13 +26,16 @@ nav ul li{
 
 
 }
-
 nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover > ul{
     position: absolute;
     left: 0;
     top: 100%;
     background-color: #314055;
-    display: none;
+    display: initial;
     
 
 }
@@ -41,9 +44,9 @@ nav ul li ul li{
     margin: 15px;
 }
 
-nav ul li:hover>ul{
+/* nav ul li:hover>ul{
     display: initial;
-}
+} */
 
 
 
@@ -79,7 +82,6 @@ nav ul li:hover>ul{
         bottom: 0;
         background: blue;
         width: 180px;
-        z-index: -1;
         padding-top: 70px;
         transition: 0.5s;
 
@@ -97,6 +99,13 @@ nav ul li:hover>ul{
         right:-200px;
     }
    
+    nav ul li:hover > ul{
+        position: relative;
+       
+    }
+   
+
+    
    
 }
 
