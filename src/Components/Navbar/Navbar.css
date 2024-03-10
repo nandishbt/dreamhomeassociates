@@ -26,35 +26,28 @@ nav ul li{
 
 
 }
-.dropdown_menu{
-    display: none;
-}
 
-
-
-nav ul li:hover .dropdown_menu{
-    display: block;
-    position:absolute;
+nav ul li ul{
+    position: absolute;
     left: 0;
     top: 100%;
-    background-color: rgb(20, 53, 102);
+    background-color: #314055;
+    display: none;
     
-   
-
-
-   
 
 }
-na ul li:hover .dropdown_menu ul{
-    display: block;
-    margin: 10px;
-   
-}
-
-nav ul li:hover .dropdown_menu ul li{
+nav ul li ul li{
     width: 100px;
-    padding: 10px;
+    margin: 15px;
 }
+
+nav ul li:hover>ul{
+    display: initial;
+}
+
+
+
+
 
 .menu-icon{
     display:none;
@@ -104,5 +97,10 @@ nav ul li:hover .dropdown_menu ul li{
         right:-200px;
     }
 
+    nav ul li ul{
+        position: relative;
+
+        
+    }
 }
 

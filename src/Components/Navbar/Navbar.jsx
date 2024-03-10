@@ -24,13 +24,13 @@ const Navbar = () => {
         <ul className={Mobilemenu ?'':'hide-mobile-menu'}>
             <li> <Link to='hero' smooth={true} offset={0} duration={500} >Home</Link></li>
             <li> <Link to='Services'smooth={true} offset={-300} duration={500} >Services <MdArrowDropDown /></Link >
-            <div className='dropdown_menu'>
+            
               <ul>
                 <li><NavLink to='Loan'>Loan</NavLink> </li>
                 <li><NavLink to='RealEstate'>Real Estate</NavLink> </li>
                 
               </ul>
-            </div>
+            
             
             </li>
             <li> <Link to='about' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</Link></li>
