@@ -96,11 +96,7 @@ nav ul li:hover>ul{
     .hide-mobile-menu{
         right:-200px;
     }
-
-    nav ul li ul{
-        position: relative;
-
-        
-    }
+   
+   
 }
 
