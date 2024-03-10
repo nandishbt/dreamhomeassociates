@@ -1,17 +1,37 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import Services from './Components/Services/Services'
-import Title from './Components/Title/Title'
-import About from './Components/About/About'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import Insites from './Components/Insights/Insites'
+
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// import Navbar from './Components/Navbar/Navbar'
+// import Hero from './Components/Hero/Hero'
+// import Services from './Components/Services/Services'
+// import Title from './Components/Title/Title'
+// import About from './Components/About/About'
+// import Contact from './Components/Contact/Contact'
+// import Footer from './Components/Footer/Footer'
+// import Insites from './Components/Insights/Insites'
+
+import Loan from './Pages/Loan/Loan';
+import RealEstate  from './Pages/RealEstate/RealEstate';
+import Home from './Pages/Home/Home';
+
+
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <>
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Loan" element={<Loan/>} />
+        <Route path="/RealEstate" element={<RealEstate/>} />
+
+      </Routes>
+    </BrowserRouter>
+
+    {/* <div>
+    <Navbar />
       <Hero />
       <div className='displayflex'>
       <Insites Num={6854} Headline='NO OF CLIENTS'/>
@@ -30,9 +50,16 @@ const App = () => {
         <Title subtitle='Contact Us' title='Get in Touch' />
         <Contact />
         <Footer />
-      </div>
       
-    </div>
+       
+      </div>
+
+   
+
+     
+      
+    </div> */}
+    </>
   )
 }
 

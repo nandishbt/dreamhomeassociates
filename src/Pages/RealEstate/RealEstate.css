@@ -1,0 +1,79 @@
+.estate{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('../../assets/estate1.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%
+
+
+}
+
+.estate_col{
+    margin: 10px 5px;
+    color: rgb(255, 255, 255);
+    
+
+}
+.estate_col h4{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.estate_col ul li{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* media query */
+
+
+@media(max-width:850px){
+    .loan{
+       
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .loan_col h4{
+        font-size: 40px;
+        text-align: center;
+        font-weight: 200;
+    
+    }
+    .loan_col ul li{
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+}
+
+
+@media(max-width:500px){
+    .estate{
+       
+        display: inline-block;
+    }
+
+    .estate_col{
+        margin: 40px 10px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .estate_col ul {
+        list-style-type: circle;
+        
+    }
+    .estate_col h4{
+        font-size: 50px;
+    }
+    .estate_col ul li{
+        font-size: 25px;  
+        text-align: left;
+    }
+}
