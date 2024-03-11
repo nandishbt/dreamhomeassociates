@@ -1,5 +1,7 @@
 import React from 'react'
 import './RealEstate.css'
+import { MdOutlineKeyboardBackspace } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const RealEstate = () => {
   return (
@@ -18,6 +20,9 @@ const RealEstate = () => {
           <li>Architectural, and Designing Services.</li>
           <li>Expert Vastu Consultation.</li>
         </ul>
+        <div className='estate_backbutton'>
+        <Link to='/'><MdOutlineKeyboardBackspace /></Link>
+        </div>
 
       </div>
 

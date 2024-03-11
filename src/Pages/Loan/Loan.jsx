@@ -1,5 +1,7 @@
 import React from 'react'
 import './Loan.css'
+import { MdOutlineKeyboardBackspace } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 const Loan = () => {
@@ -20,8 +22,15 @@ const Loan = () => {
           <li>Extensions for all Khatas.</li>
           <li>Mortgage Loan Options.</li>
         </ul>
+        <div className='loan_backbutton'>
+        <Link to='/'><MdOutlineKeyboardBackspace /></Link>
+        </div>
+
+        
 
       </div>
+
+      
 
      
       

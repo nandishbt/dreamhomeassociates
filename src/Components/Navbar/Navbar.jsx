@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { IoIosArrowDropdown } from "react-icons/io";
+
 import { MdArrowDropDown } from "react-icons/md";
+import { MdOutlineKeyboardBackspace } from "react-icons/md";
+
 
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
@@ -18,6 +19,7 @@ const Navbar = () => {
   }
 
   return (
+    
     <nav className='container dark-nav'>   
         {/* <img src={logo} className='logo' /> */}
         <h1>DREAM HOME ASSOCIATES</h1>
@@ -36,8 +38,15 @@ const Navbar = () => {
             <li> <Link to='about' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</Link></li>
             <li> <Link to='hero' smooth={true} offset={-250} duration={500} >Testimonals</Link></li>
             <li> <Link to='contact' smooth={true} offset={-250} duration={500} className='btn' >Contact</Link> </li>
+            <div className='backbutton' onClick={togglemenu}>
+             <MdOutlineKeyboardBackspace />
+            </div>
         </ul>
         <img src={menu} className='menu-icon'  onClick={togglemenu}/>
+
+        
+
+       
 
     </nav>
   )
