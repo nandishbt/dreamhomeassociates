@@ -12,8 +12,8 @@ const Contact = () => {
         var message = document.querySelector('.message').value;
 
         var url = 'https://wa.me/' + phonenumber+ "?text="
-        +"*Name: *"+name + "%0a"
-        +"*Message: *"+ message +"%0a%0a"
+        +"Name: "+name + "%0a"
+        +"Message: "+ message +"%0a%0a"
 
         window.open(url,'_blank').focus();
     }
