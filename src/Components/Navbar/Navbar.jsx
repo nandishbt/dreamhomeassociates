@@ -33,20 +33,20 @@ const Navbar = () => {
         {/* <img src={logo} className='logo' /> */}
         <h1>DREAM HOME ASSOCIATES</h1>
         <ul className={Mobilemenu ?'':'hide-mobile-menu'}>
-            <li> <Link to='hero' smooth={true} offset={0} duration={500} >Home</Link></li>
+            <li> <NavLink to='/' smooth={true} offset={0} duration={500} >Home</NavLink></li>
             <li> <NavLink to='/Services'smooth={true} offset={-300} duration={500} >Services <MdArrowDropDown /></NavLink >
             
               <ul>
-                <li><NavLink to='Loan'>Loan</NavLink> </li>
-                <li><NavLink to='RealEstate'> Real Estate </NavLink> </li>
+                <li><NavLink to='/Loan'>Loan</NavLink> </li>
+                <li><NavLink to='/RealEstate'> Real Estate </NavLink> </li>
                 
               </ul>
             
             
             </li>
             <li> <NavLink to='/About' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</NavLink></li>
-            <li> <Link to='hero' smooth={true} offset={-250} duration={500} >Testimonals</Link></li>
-            <li> <NavLink to='contact' smooth={true} offset={-250} duration={500} className='btn' >Contact</NavLink> </li>
+            <li> <NavLink to='/' smooth={true} offset={-250} duration={500} >Testimonals</NavLink></li>
+            <li> <NavLink to='/contact' smooth={true} offset={-250} duration={500} >Contact</NavLink> </li>
             <div className='backbutton' onClick={togglemenu}>
              <MdOutlineKeyboardBackspace />
             </div>

@@ -8,7 +8,9 @@ import Contact from '../../Components/Contact/Contact'
 import Footer from '../../Components/Footer/Footer'
 import Services from '../../Components/Services/Services'
 import Title from '../../Components/Title/Title'
-import Loan_Calculator from '../../Components/Loan_Calculator/Loan_Calculator'
+import Testimos from '../../Components/Testimos/Testimos'
+import MainInsight from '../../Components/Insights/MainInsight'
+
 
 
 const Home = () => {
@@ -16,21 +18,20 @@ const Home = () => {
     <div>
     <Navbar/>
     <Hero/>
-    <div className='displayflex'>
-      <Insites Num={6854} Headline='NO OF CLIENTS'/>
-      <Insites Num={4569} Headline='NO OF LOANS'/>
-      <Insites Num={2564} Headline='NO OF ESTATES'/>
-      </div>
+    <MainInsight />
+   
 
       <div className='container'>
         <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/>
         <Services />
-        <Title subtitle='About Us' title='Who are we' navigate='/About'/>
+        <Title subtitle='About Us' title='WHO ARE WE' navigate='/About'/>
         <About />
-        {/* <Title subtitle='Loan Calculator' title="See Our Plans" navigate='/About' />
-        <Loan_Calculator /> */}
+
+        <Testimos />
         
-        <Title subtitle='Contact Us' title='Get in Touch' navigate='/Contact'/>
+       
+        
+        <Title subtitle='Contact Us' title='GET IN TOUCH' navigate='/Contact'/>
         <Contact />
         <Footer />
       

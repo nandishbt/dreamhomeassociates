@@ -1,0 +1,49 @@
+.testimo{
+    margin: 30px 30px;
+   
+   
+    
+  
+    gap: 10px;
+    display: flex;
+   
+    
+}
+
+.test{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+.test h1{
+    font-weight: 300;
+}
+
+
+.next-btn{
+    position: absolute;
+    right: 0;
+    top: 45%;  
+}
+.back-btn{
+    position: absolute;
+    left: 0;
+    top: 45%;  
+}
+
+ .next-btn:hover{
+    cursor: pointer;
+}
+
+.back-btn:hover{
+    cursor: pointer; 
+}
+
+.slider{
+    display: flex;
+}
+
+
+

@@ -2,11 +2,17 @@ import React, { useEffect, useState } from 'react'
 import './Loan_Calculator.css'
 
 const Loan_Calculator = () => {
-    // const [Total, setTotal] = useState()
+  //   const [Total, setTotal] = useState()
+
     
-    // const totalamount = ()=>{
-    //   setTotal(500)
-    // }
+    
+    
+  // useEffect(()=>{
+  //   var temp = document.querySelector('.amount').value;
+    
+  //   setTotal(temp)
+   
+  // },[])
 
   return (
     <div>

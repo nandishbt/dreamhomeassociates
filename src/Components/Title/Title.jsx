@@ -3,6 +3,10 @@ import './Title.css'
 import { Link } from 'react-router-dom'
 
 const Title = ({subtitle,title,navigate}) => {
+
+
+ 
+    
   return (
     <div className='titlepage'>
       <div className='titles'>

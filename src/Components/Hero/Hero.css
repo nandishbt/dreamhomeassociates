@@ -18,7 +18,7 @@
 }
 
 .hero-text h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 800;
     font-stretch: expanded;
     font-family: "Bebas Neue", sans-serif;
@@ -26,17 +26,37 @@
     
 }
 
+.hero-text h1 span{
+    font-size: 80px;
+    font-weight: 800;
+    font-stretch: expanded;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: rgb(63, 63, 65);
+}
+
 .hero-text p{
     color: rgb(255, 255, 255);
     text-align: left;
     max-width: 600px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
     line-height: 1.75;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
+    animation: textAnimation 2s  infinite alternate ;
     
 }
+@keyframes textAnimation {
+    from {
+      font-size: 22px; /* Initial font size */
+    }
+    to {
+      font-size: 22px; /* Final font size */
+      color: rgb(63, 63, 65);
+      font-weight: 500;
+    }
+  }
 
 
 /* media query */

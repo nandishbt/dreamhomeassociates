@@ -1,27 +1,49 @@
-import React from 'react'
+import React, { useEffect ,useRef} from 'react'
 import './Hero.css'
 import { delay, motion } from "framer-motion"
 // import dark from '../../assets/dark-arrow.png'
+import Typed from 'typed.js';
 
 
 const Hero = () => {
+  const typedElement = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: ['ASSOCIATES'], // Array of strings to display
+      typeSpeed: 80, // Typing speed in milliseconds
+      backSpeed: 80, // Backspacing speed in milliseconds
+      loop: true // Whether to loop the strings
+    };
+
+    const typed = new Typed(typedElement.current, options);
+
+    return () => {
+      typed.destroy(); // Cleanup on component unmount
+    };
+  }, []);
+
+ 
+ 
+  
 
 
 
   return (
-    <>
+    
+ 
     <div className='hero container'>
-        <motion.div className="hero-text" animate={{ y: 40 , x:300}}
-        transition={{ type: "spring", stiffness: 50, delay:0.5}}
+        <div className="hero-text" 
+        
         >
-            <h1>DREAM HOME ASSOCIATES</h1>
+            <h1>DREAM HOME <span ref={typedElement}/></h1>
             <p>Welcome to Dream Home Associates,your trusted partner in achieving your dream of homeownership and beyond</p>
             {/* <button className='btn'>Explore more <img src={dark} /></button> */}
-        </motion.div>
-       
+        </div>
+
     </div>
     
-    </>
+    
   )
 }
 

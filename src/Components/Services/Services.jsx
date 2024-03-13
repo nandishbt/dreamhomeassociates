@@ -7,10 +7,10 @@ import './Service_card.css'
 const Services = () => {
   return (
     <div className='main_service'>
-      <Service_card />
-      <Service_card />
-      <Service_card />
-      <Service_card />
+      <Service_card heading="HOME LOAN" subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, iste!"/>
+      <Service_card heading="HOME LOAN" subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, iste!"/>
+      <Service_card heading="HOME LOAN" subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, iste!"/>
+      <Service_card heading="HOME LOAN" subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, iste!"/>
       
     </div>
     
