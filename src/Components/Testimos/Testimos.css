@@ -17,33 +17,8 @@
   
 }
 
-.test h1{
-    font-weight: 300;
-}
 
 
-.next-btn{
-    position: absolute;
-    right: 0;
-    top: 45%;  
-}
-.back-btn{
-    position: absolute;
-    left: 0;
-    top: 45%;  
-}
-
- .next-btn:hover{
-    cursor: pointer;
-}
-
-.back-btn:hover{
-    cursor: pointer; 
-}
-
-.slider{
-    display: flex;
-}
 
 
 

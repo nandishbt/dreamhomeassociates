@@ -37,7 +37,7 @@ const Contact_card = () => {
      
       
     </div>
-    <div className='contact-card'>
+    {/* <div className='contact-card'>
         <div className='contact-card1'>
             
 
@@ -48,7 +48,7 @@ const Contact_card = () => {
             
         </div>
         
-    </div>
+    </div> */}
     </>
    
   )
