@@ -1,0 +1,62 @@
+.services{
+    width: 23%;
+    height: 320px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(214, 207, 207);
+   
+    position: relative;
+   
+    border-radius: 5px;
+   
+    
+}
+.service_desc{
+    position: absolute;
+    text-align: left;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;  
+}
+
+.service_desc h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.service_desc p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.service_img{
+    position: absolute;
+    color: rgb(162, 78, 148);
+    height: 20%;
+    font-weight: 100;
+   text-align: left;
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 40%;
+    
+    font-size: 50px;
+}
+
+.service_desc:hover{
+    color: orange;
+    cursor: pointer;
+}
+.service_img:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.main_service{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+    
+   
+}

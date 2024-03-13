@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { Link } from 'react-scroll'
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
 
@@ -21,7 +22,7 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className='contact-colum'>
-            <h3>Send us a message</h3>
+            <h3>SEND US A MESSAGE</h3>
             <p>Feel free to reach out through contact form or find our contact information below. Your feedback,suggestions, and questions are important to us as we strive to provide exceptional service.</p>
             <ul>
                 <li>contact@dreamhome.com</li>
@@ -37,7 +38,7 @@ const Contact = () => {
                 <input type='tel' name='phone' placeholder='Enter Your Name' className='phone' required />
                 <label>Write your messages here</label>
                 <textarea name='message'  rows={4} placeholder='Enter your message' className='message' required />
-                <button className='btn' onClick={whatsapp}>Submit Now</button>
+                <button className='whats_app' onClick={whatsapp}>Send Via WhatsApp < FaWhatsapp/></button>
             </form>
         </div>
     </div>

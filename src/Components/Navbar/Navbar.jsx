@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 
 import { MdArrowDropDown } from "react-icons/md";
@@ -11,6 +11,13 @@ import menu from '../../assets/menu-icon.png'
 // import logo from '../../assets/houselogo.png'
 
 const Navbar = () => {
+  const [sticky, setsticky] = useState(false)
+
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      scrollY>100?setsticky(true):setsticky(false)
+    })
+  },[])
   
   const [Mobilemenu, setMobilemenu] = useState(false)
 
@@ -19,13 +26,15 @@ const Navbar = () => {
   }
 
   return (
+
     
-    <nav className='container dark-nav'>   
+    
+    <nav className={`container ${sticky?'dark-nav':''}`}>   
         {/* <img src={logo} className='logo' /> */}
         <h1>DREAM HOME ASSOCIATES</h1>
         <ul className={Mobilemenu ?'':'hide-mobile-menu'}>
             <li> <Link to='hero' smooth={true} offset={0} duration={500} >Home</Link></li>
-            <li> <Link to='Services'smooth={true} offset={-300} duration={500} >Services <MdArrowDropDown /></Link >
+            <li> <NavLink to='/Services'smooth={true} offset={-300} duration={500} >Services <MdArrowDropDown /></NavLink >
             
               <ul>
                 <li><NavLink to='Loan'>Loan</NavLink> </li>
@@ -35,9 +44,9 @@ const Navbar = () => {
             
             
             </li>
-            <li> <Link to='about' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</Link></li>
+            <li> <NavLink to='/About' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</NavLink></li>
             <li> <Link to='hero' smooth={true} offset={-250} duration={500} >Testimonals</Link></li>
-            <li> <Link to='contact' smooth={true} offset={-250} duration={500} className='btn' >Contact</Link> </li>
+            <li> <NavLink to='contact' smooth={true} offset={-250} duration={500} className='btn' >Contact</NavLink> </li>
             <div className='backbutton' onClick={togglemenu}>
              <MdOutlineKeyboardBackspace />
             </div>

@@ -8,6 +8,7 @@ import Contact from '../../Components/Contact/Contact'
 import Footer from '../../Components/Footer/Footer'
 import Services from '../../Components/Services/Services'
 import Title from '../../Components/Title/Title'
+import Loan_Calculator from '../../Components/Loan_Calculator/Loan_Calculator'
 
 
 const Home = () => {
@@ -22,12 +23,14 @@ const Home = () => {
       </div>
 
       <div className='container'>
-        <Title subtitle='Our Services' title='What We Offer' />
+        <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/>
         <Services />
-        <Title subtitle='About Us' title='Who are we' />
+        <Title subtitle='About Us' title='Who are we' navigate='/About'/>
         <About />
+        {/* <Title subtitle='Loan Calculator' title="See Our Plans" navigate='/About' />
+        <Loan_Calculator /> */}
         
-        <Title subtitle='Contact Us' title='Get in Touch' />
+        <Title subtitle='Contact Us' title='Get in Touch' navigate='/Contact'/>
         <Contact />
         <Footer />
       

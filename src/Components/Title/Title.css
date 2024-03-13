@@ -1,16 +1,50 @@
-.title{
-    text-align: center;
-    color: #212EA0;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 70px 0 30px;
+.titlepage{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.titles{
+   
+    height: 50px;
+    
+}
+.titles h6{
+    font-weight: 100;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
 
 }
-.title h2{
-    font-size: 32px;
-    color: #000F38;
-    margin-top: 5px;
-    text-transform: none;
+.titles p{
+    font-weight: 400;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
 
+.view{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(90, 45, 90);
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+}
+
+.view:hover{
+    background-color: rgb(87, 9, 94);
+    color: orange;
+    font-weight: 300;
+    
 }

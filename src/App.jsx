@@ -15,6 +15,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Loan from './Pages/Loan/Loan';
 import RealEstate  from './Pages/RealEstate/RealEstate';
 import Home from './Pages/Home/Home';
+import Services from './Pages/Services/Services';
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
 
 
 
@@ -26,6 +29,9 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/Loan" element={<Loan/>} />
         <Route path="/RealEstate" element={<RealEstate/>} />
+        <Route path="/Services" element={<Services/>} />
+        <Route path="/About" element={<About/>} />
+        <Route path="/Contact" element={<Contact />} />
 
       </Routes>
     </BrowserRouter>

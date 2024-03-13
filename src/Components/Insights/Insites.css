@@ -1,17 +1,30 @@
 
+
 .insight{
+   
     margin: 40px 20px;
-    width: 90%;
+    padding: 20px 50px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
+    position: relative;
    
 
   
 }
 
+.insight p{
+    font-size: 22px;
+    
+}
+
 .insight div{
-    font-size: 20px;
+    font-size: 50px;
+    color: rgb(89, 6, 89);
+    
 
 
 }

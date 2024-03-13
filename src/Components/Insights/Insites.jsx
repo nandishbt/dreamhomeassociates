@@ -12,7 +12,7 @@ const Insites = ({Num,Headline}) => {
       const { number } = useSpring({
         number: inView ?  Num: 0,
         from: { number: 0 },
-        config: { duration: 2000}, // Adjust the duration as needed
+        config: { duration: 500}, // Adjust the duration as needed
       });
     
   
@@ -21,12 +21,13 @@ const Insites = ({Num,Headline}) => {
     <>
     <div className='insights'>
         <div className='insight'>
-            <h3>{Headline}</h3>
-            <div ref={ref}>
+        <div ref={ref}>
             <animated.div>
             {number.interpolate((val) => Math.floor(val))}
              </animated.div>
             </div>
+            <p>{Headline}</p>
+            
 
         </div>
 

@@ -11,13 +11,17 @@
 }
 
 .contact-colum h3{
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 300;
+
     color: #000F38;
     font-weight: 500;
 
 }
 
 .contact-colum p{
+    font-size: 20px;
+    font-weight: 200;
     max-width: 450px;
     list-style: 0.3;
 }
@@ -43,7 +47,22 @@
 
 
 }
+.whats_app{
+    padding: 10px 30px;
+    border-radius: 5%;
+    background-color: rgb(11, 208, 11);
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+   text-align: center;
+    
 
+}
+
+
+.whats_app:hover{
+    cursor: pointer;
+}
 /* media query */
 @media(max-width:500px){
     .contact{
