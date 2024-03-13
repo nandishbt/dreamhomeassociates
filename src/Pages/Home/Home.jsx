@@ -10,6 +10,7 @@ import Services from '../../Components/Services/Services'
 import Title from '../../Components/Title/Title'
 import Testimos from '../../Components/Testimos/Testimos'
 import MainInsight from '../../Components/Insights/MainInsight'
+import Bank from '../../Components/Bank/Bank'
 
 
 
@@ -30,7 +31,7 @@ const Home = () => {
         <Testimos />
         
        
-        
+        <Bank />
         <Title subtitle='Contact Us' title='GET IN TOUCH' navigate='/Contact'/>
         <Contact />
         <Footer />
