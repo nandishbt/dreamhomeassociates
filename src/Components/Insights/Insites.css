@@ -3,14 +3,13 @@
 .insight{
    
    
-    padding: 20px 50px;
+    padding: 20px 40px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    gap: 10px;
-    position: relative;
+    gap: 7px;
+    
    
 
   
@@ -20,7 +19,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     
   }
 

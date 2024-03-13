@@ -14,7 +14,7 @@ const Contact_card = () => {
       strings: ['CONTACT US'], // Array of strings to display
       typeSpeed: 80, // Typing speed in milliseconds
       backSpeed: 80, // Backspacing speed in milliseconds
-      loop: false // Whether to loop the strings
+      loop: true // Whether to loop the strings
     };
 
     const typed = new Typed(typedElement.current, options);

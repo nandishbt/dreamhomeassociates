@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
+import './About.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className='About'>
+      <Navbar />
+    </div>
   )
 }
 
