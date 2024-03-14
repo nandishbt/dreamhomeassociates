@@ -12,9 +12,12 @@
     padding-right: 20%;
     color: white;
     
-
-
 }
+.loan h2{
+    font-size: 60px;
+    font-weight: 800;
+}
+
 
 
 
@@ -42,6 +45,7 @@
    
 } */
 .Loan_btm p{
+    margin: 12px;
 
     font-size: 20px;
     font-weight: 300;

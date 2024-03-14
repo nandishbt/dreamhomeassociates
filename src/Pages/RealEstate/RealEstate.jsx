@@ -11,7 +11,7 @@ const RealEstate = () => {
    <div>
      <div className='estate'>
       <Navbar />
-      <h1>REAL ESTATE SERVICES</h1>
+      <h2>REAL ESTATE SERVICES</h2>
        
 
     

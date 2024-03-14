@@ -21,7 +21,7 @@ const Loan = () => {
     <div>
        <div className='loan'>
       <Navbar />
-      <h1>LOAN SERVICES</h1>
+      <h2>LOAN SERVICES</h2>
       
 
       
@@ -33,7 +33,7 @@ const Loan = () => {
  
 
        
-        <div className='container'>     <p>	Whether you’re a first-time homebuyer or an investor, we offer a range of financial solutions. From home loans to project financing, we guide you through the process, ensuring you make informed decisions.
+        <div className='container display-flex'>     <p>	Whether you’re a first-time homebuyer or an investor, we offer a range of financial solutions. From home loans to project financing, we guide you through the process, ensuring you make informed decisions.
 <p>	Our team compares various loan options, interest rates, and repayment terms, tailoring them to your unique requirements.
 </p></p></div>
 <div className='display-flex container'>
