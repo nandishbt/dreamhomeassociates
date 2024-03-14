@@ -24,3 +24,23 @@
     margin-bottom: 10px;
     font-weight: 200;
 }
+
+/* media query */
+
+@media(max-width:700px){
+    .about_summary{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 20px 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        border-radius: 10px;
+    
+    
+    }
+
+
+}

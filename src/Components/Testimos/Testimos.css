@@ -60,6 +60,38 @@
     color: rgb(91, 125, 217);
   }
 
+  /* media query */
+  @media(max-width:700px){
+
+    .testimonial-card {
+    
+      border-radius: 10px;
+     
+      padding: 2px;
+      
+      text-align: center;
+     
+     
+    }
+    .testimonial-name {
+      font-size: 1.4em;
+      margin-bottom: 5px;
+    }
+    .testimonial-description {
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .testimo{
+      margin: 30px 10px;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;   
+  }
+  }
+
   
   
 
