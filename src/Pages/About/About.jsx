@@ -1,8 +1,12 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
+import About_card from '../../Components/About/About'
 import './About.css'
 import Typed from 'typed.js';
 import  { useEffect ,useRef} from 'react'
+import founder1 from "../../assets/Coufounder1.png"
+import founder2 from "../../assets/Coufounder2.png"
+import Tesi_card from '../../Components/Testimos/Tesi_card'
 
 
 const About = () => {
@@ -25,7 +29,9 @@ const About = () => {
 
 
   return (
-    <div className='about_page'>
+    <>
+    
+     <div className='about_page'>
     <div className="about_text" >
       
 
@@ -33,10 +39,22 @@ const About = () => {
           
       </div>
     <Navbar />
+
     
    
     
   </div>
+  <div className='tt'>
+  <Tesi_card img={founder1} name='  Anindita Mukherjee ' desc='Passionate & business oriented Professional having over 15 years of experience across Financial Industries. Sound knowledge in Human Resource Management & Business Acumen. Post Graduate From Kolkata'/>
+  <Tesi_card img={founder2} name='Ranganath Nandagiri ' desc='Expert from Financial Industry having over 20 years of experience in Stategic planning, Sales & Marketing & Channel Development. Graduate In Commerce.'/>
+
+  </div>
+
+
+  <About_card/>
+  
+  </>
+   
   )
 }
 

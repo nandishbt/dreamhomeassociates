@@ -1,9 +1,9 @@
 import React from 'react'
 import './Service_card.css'
-import { HiOutlineHomeModern } from "react-icons/hi2";
 
 
-const Service_card = ({heading,subtitle}) => {
+
+const Service_card = ({heading,subtitle,icon}) => {
   return (
     <div className='services'>
         <div className='service_desc'>
@@ -11,8 +11,7 @@ const Service_card = ({heading,subtitle}) => {
             <p>{subtitle}</p>
         </div>
         <div className='service_img'>
-            <HiOutlineHomeModern/>
-
+            {icon}
         </div>
         
     </div>

@@ -28,3 +28,12 @@
     color: aliceblue;
     
 }
+
+.tt{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}

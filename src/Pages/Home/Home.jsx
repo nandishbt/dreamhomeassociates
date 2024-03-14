@@ -11,6 +11,9 @@ import Title from '../../Components/Title/Title'
 import Testimos from '../../Components/Testimos/Testimos'
 import MainInsight from '../../Components/Insights/MainInsight'
 import Bank from '../../Components/Bank/Bank'
+import Tesi_card from '../../Components/Testimos/Tesi_card'
+
+import founder1 from "../../assets/Coufounder1.png"
 
 
 
@@ -35,6 +38,8 @@ const Home = () => {
         <Title subtitle='Contact Us' title='GET IN TOUCH' navigate='/Contact'/>
         <Contact />
         <Footer />
+
+        {/* <Tesi_card img={founder1} name='Aninditha' desc='Passionate & business oriented Professional having over 15 years of experience across Financial Industries. Sound knowledge in Human Resource Management & Business Acumen. Post Graduate From Kolkata'/> */}
       
        
       </div>

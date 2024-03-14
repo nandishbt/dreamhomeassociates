@@ -15,7 +15,7 @@ const Title = ({subtitle,title,navigate}) => {
 
       </div>
       <div className='view'>
-        <Link to={navigate}>VIEW ALL</Link>
+        <Link to={navigate}>VIEW</Link>
       </div>
 
     </div>
