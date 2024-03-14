@@ -17,13 +17,18 @@ const RealEstate = () => {
     
 
     </div>
+
+    
     <div className='estate_btm'>
 
       <p className='pp'>	Buying or selling a property? Look no further. Dream Home Associates specializes in real estate transactions.</p>
       <p className='pp'>	We assist you in finding your ideal home, evaluating properties, negotiating deals, and handling legal formalities.</p>
       <h1>TYPES OF SERVICES WE PROVIDE</h1>
+      
 
       </div>
+      
+
       <div className=' display-flex container'>
       <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={<BsHouses />}/>
       <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={<BsHouses />}/>
