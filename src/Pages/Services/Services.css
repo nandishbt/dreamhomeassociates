@@ -1,8 +1,9 @@
 .service_page{
     width: 100%;
     height: 100vh;
-    background: url('../../assets/service2.jpg');
+    background: url('../../assets/service3.avif');
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;

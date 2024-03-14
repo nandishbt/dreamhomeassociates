@@ -53,7 +53,7 @@ const Services = () => {
       <Title subtitle='REAL ESTATE' title='SERVICES' navigate='/RealEstate'/>
       <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={<BsHouses />}/>
       <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={<BsHouses />}/>
-      <Service_card heading="Interior Design " subtitle="Whether it’s a cozy apartment or a sprawling villa or fabulous Office spaces our experts curate designs that resonate with you." icon={<BsHouses />}/>
+      <Service_card heading="Interior Design " subtitle="Whether it’s a cozy apartment fabulous Office spaces our experts curate designs that resonate with you." icon={<BsHouses />}/>
       <Service_card heading="Vastu " subtitle="Harmony starts at Home with Vastu. Our Vastu Experts & Architects design the house where Vastu science meets spirituality" icon={<BsHouses />}/>
 
 

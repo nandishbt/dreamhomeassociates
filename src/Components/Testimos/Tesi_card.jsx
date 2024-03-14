@@ -2,13 +2,16 @@ import React from 'react'
 import './Testimos.css'
 
 
-const Tesi_card = ( {img,name,desc}) => {
+const Tesi_card = ( {name,position,desc}) => {
   return (
-    <div class="testimonial-card">
-    <img src={img} alt="Testimonial Person" class="testimonial-img"/>
-    <h2 class="testimonial-name">{name}</h2>
-    <p class="testimonial-description">{desc}</p>
-  </div>
+   <div className='Tesi_card'>
+    <h1>{name}</h1>
+    <h2>{position}</h2>
+    <p>{desc}</p>
+    
+
+
+   </div>
   )
 }
 

@@ -28,7 +28,7 @@ const Contact = () => {
                 {/* <li>contact@dreamhome.com</li> */}
                 <li>+91-9980860555</li>
                 <li># 1&2 MS Welkin Tower Beside SH, Amruth Nagar, Yelahanka Bangalore</li>
-                <li>GSTIN/UIN : 29AAIFI3812L1Z3</li>
+                {/* <li>GSTIN/UIN : 29AAIFI3812L1Z3</li> */}
                 <li>STATE NAME: Karnataka, CODE: 29</li>
             </ul>
         </div>
