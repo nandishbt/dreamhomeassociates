@@ -33,10 +33,10 @@ const Loan = () => {
  
 
        
-        <div className='loan_desc'>     <p>	Whether you’re a first-time homebuyer or an investor, we offer a range of financial solutions. From home loans to project financing, we guide you through the process, ensuring you make informed decisions.
+        <div className='container'>     <p>	Whether you’re a first-time homebuyer or an investor, we offer a range of financial solutions. From home loans to project financing, we guide you through the process, ensuring you make informed decisions.
 <p>	Our team compares various loan options, interest rates, and repayment terms, tailoring them to your unique requirements.
 </p></p></div>
-<div className='main_servicel container'>
+<div className='display-flex container'>
       <Service_card heading="Housing Loan" subtitle="Loan for  direct purchase of flats/villas/independent houses." icon={<HiOutlineHomeModern/>}/>
       <Service_card heading="Project Loan" subtitle="Tailored solutions for project development" icon={<GoProjectRoadmap  />}/>
       <Service_card heading="Education Loan" subtitle="Loan for fulfilling dreams for higher studies" icon={<MdCastForEducation />}/>
