@@ -53,6 +53,16 @@
 }
 
 
+/* media query */
+@media(max-width:700px){
+    .contact-text{
+        position: absolute;
+        left: 30px;
+        text-align: left;
+        max-width: 800px; 
+    }
+}
+
 
  
     
