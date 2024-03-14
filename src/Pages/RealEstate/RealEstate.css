@@ -8,84 +8,43 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right: 10%
+    padding-right: 10%;
+    color:white;
 
 
 }
-
-.estate_col{
-    margin: 10px 5px;
-    color: rgb(255, 255, 255);
-    
-
-}
-.estate_col h4{
-    font-size: 60px;
+.estate_btm{
     text-align: center;
-    font-weight: 200;
+    padding: 5%;
+    width: 100%;
 
 }
-
-.estate_col ul li{
+.estate_btm p{
+    margin-top: 10px;
+    font-weight: 300;
     font-size: 20px;
-    font-weight: 100;
+
 }
 
-.estate_backbutton{
-    position: absolute;
-    top: 50px;
-    left:100px;
-    font-size: 30px;
-    
+.estate_btm h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
+
+
+
+
+
+
+
 
 /* media query */
 
 
-@media(max-width:850px){
-    .estate{
-       
-        padding-left: 5%;
-        padding-right: 5%
-    }
-    .estate_col h4{
-        font-size: 40px;
-        text-align: center;
-        font-weight: 200;
+
     
-    }
-    .estate_col ul li{
-        font-size: 20px;
-        font-weight: 100;
-    }
-
-}
+   
 
 
-@media(max-width:500px){
-    .estate{
-       padding-top: 5%;
-        display: inline-block;
-    }
 
-    .estate_col{
-        margin: 40px 10px;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-    .estate_col ul {
-        list-style-type: circle;
-        
-    }
-    .estate_col h4{
-        font-size: 40px;
-    }
-    .estate_col ul li{
-        font-size: 20px;  
-        text-align: left;
-    }
-    .estate_backbutton{
-        top: 20px;
-        left: 30px;
-    }
-}
+

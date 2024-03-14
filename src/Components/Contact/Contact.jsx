@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
 
     const whatsapp = ()=>{
-        var phonenumber ='+916361464986'
+        var phonenumber ='+919980860555'
 
         var name = document.querySelector('.name').value;
         var phone = document.querySelector('.phone').value;
@@ -23,11 +23,13 @@ const Contact = () => {
     <div className='contact'>
         <div className='contact-colum'>
             <h3>SEND US A MESSAGE</h3>
-            <p>Feel free to reach out through contact form or find our contact information below. Your feedback,suggestions, and questions are important to us as we strive to provide exceptional service.</p>
+            {/* <p>Feel free to reach out through contact form or find our contact information below. Your feedback,suggestions, and questions are important to us as we strive to provide exceptional service.</p> */}
             <ul>
-                <li>contact@dreamhome.com</li>
-                <li>+91-1112223334</li>
-                <li>RR Nagar,Bangalore  </li>
+                {/* <li>contact@dreamhome.com</li> */}
+                <li>+91-9980860555</li>
+                <li># 1&2 MS Welkin Tower Beside SH, Amruth Nagar, Yelahanka Bangalore</li>
+                <li>GSTIN/UIN : 29AAIFI3812L1Z3</li>
+                <li>STATE NAME: Karnataka, CODE: 29</li>
             </ul>
         </div>
         <div className='contact-colum'>

@@ -2,31 +2,38 @@ import React from 'react'
 import './RealEstate.css'
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import Navbar from '../../Components/Navbar/Navbar'
+import Service_card from '../../Components/Services/Service_card'
+import { BsHouses } from "react-icons/bs";
 
 const RealEstate = () => {
   return (
-    <div className='estate'>
-       <div className='estate_col'>
-        <h4>Real Estate Services</h4>
+   <div>
+     <div className='estate'>
+      <Navbar />
+      <h1>REAL ESTATE SERVICES</h1>
+       
 
-      </div>
-
-      <div className='estate_col'>
-        <ul>
-          <li>Marketing of Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges.</li>
-          <li>Commercial Property Solutions.</li>
-          <li>House Interior Decoration.</li>
-          <li>Transforming your house into your dream home.</li>
-          <li>Architectural, and Designing Services.</li>
-          <li>Expert Vastu Consultation.</li>
-        </ul>
-        <div className='estate_backbutton'>
-        <Link to='/'><MdOutlineKeyboardBackspace /></Link>
-        </div>
-
-      </div>
+    
 
     </div>
+    <div className='estate_btm'>
+      <p>	Buying or selling a property? Look no further. Dream Home Associates specializes in real estate transactions.</p>
+      <p>	We assist you in finding your ideal home, evaluating properties, negotiating deals, and handling legal formalities.</p>
+      <h1>TYPES OF SERVICES WE PROVIDE</h1>
+      <div className='container display-flex'>
+      <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={<BsHouses />}/>
+      <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={<BsHouses />}/>
+      <Service_card heading="Interior Design " subtitle="Whether it’s a cozy apartment or a sprawling villa or fabulous Office spaces our experts curate designs that resonate with you." icon={<BsHouses />}/>
+      <Service_card heading="Vastu " subtitle="Harmony starts at Home with Vastu. Our Vastu Experts & Architects design the house where Vastu science meets spirituality" icon={<BsHouses />}/>
+
+
+      </div>
+
+     
+      
+    </div>
+   </div>
   )
 }
 
