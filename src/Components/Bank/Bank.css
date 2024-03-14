@@ -29,8 +29,10 @@
 }
 
 .Bank div img{
-    width: 120px;
+    width: 130px;
     height: 50px;
+    margin: 10px;
+
 }
 
 /* media query */
