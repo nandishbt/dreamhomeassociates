@@ -45,8 +45,9 @@ const Navbar = () => {
             
             </li>
             <li> <NavLink to='/About' smooth={true} offset={-850} duration={500} className='mobile-scroll'>About Us</NavLink></li>
-            {/* <li> <NavLink to='/' smooth={true} offset={-250} duration={500} >Testimonals</NavLink></li> */}
+            <li> <NavLink to='/Feedback' smooth={true} offset={-250} duration={500} >Feedback</NavLink></li>
             <li> <NavLink to='/contact' smooth={true} offset={-250} duration={500} >Contact</NavLink> </li>
+
             <div className='backbutton' onClick={togglemenu}>
              <MdOutlineKeyboardBackspace />
             </div>

@@ -18,6 +18,7 @@ import Home from './Pages/Home/Home';
 import Services from './Pages/Services/Services';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import Feedback from './Pages/Feedback/Feedback';
 
 
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/Services" element={<Services/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Feedback" element={<Feedback/>} />
 
       </Routes>
     </BrowserRouter>
