@@ -1,43 +1,44 @@
 import React from 'react'
 import './feedback.css'
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
+import Navbar from '../../Components/Navbar/Navbar';
 
 const Feedback = () => {
   return (
-    <div className='Feedmain'> 
-       <form> <h2>FEEDBACK FORM</h2>
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required/>
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email address" required/>
-  </div>
-  <div class="form-group">
-    <label for="rating">Rating (1-5):</label>
-    <div class="rating-container">
-        
-      <input type="radio" id="star1" name="rating" value="1" />
-      <label for="star1">★</label>
-      <input type="radio" id="star2" name="rating" value="2"/>
-      <label for="star2">★</label>
-      <input type="radio" id="star3" name="rating" value="3"/>
-      <label for="star3">★</label>
-      <input type="radio" id="star4" name="rating" value="4"/>
-      <label for="star4">★</label>
-      <input type="radio" id="star5" name="rating" value="5"/>
-      <label for="star5">★</label>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
-  </div>
-  <button type="submit">Send Message</button>
-</form>
 
-    </div>
+    <>
+    <Navbar />
+    <div className='MainFeed'>
+      <div className='Innerdiv'>
+        <h1>SEND YOUR FEEDBACK</h1>
+        <form> 
+        <label>YOUR NAME:</label><br></br>
+        <input text='name' placeholder='Enter Your name' required /><br></br>
+        <label>YOUR EMAIL:</label><br></br>
+        <input text='email' placeholder='Enter Your email' required /><br></br>
+        <label>RATING(1-5) (1 being the low & 5 being the high)</label><br></br>
+        <select name="dropdown" className='dropdn' required>
+            <option value="option1" selected>1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option2">4</option>
+            <option value="option3">5</option>
+        </select><br></br>
+        <label>YOUR FEEDBACk:</label><br></br>
+        <textarea rows={5} placeholder='Enter yoyr Message' required/><br></br>
+
+        <button className='btn'> SUBMIT</button>
+
+        </form>
+
+      </div>
+     
+
+
+     </div>
+    </>
+    
+  
    
   )
 }

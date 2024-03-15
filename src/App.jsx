@@ -19,6 +19,7 @@ import Services from './Pages/Services/Services';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Feedback from './Pages/Feedback/Feedback';
+import InteriorDec from './Pages/InteriorDec/InteriorDec';
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Feedback" element={<Feedback/>} />
+        <Route path="/InteriorDecoration" element={<InteriorDec/>} />
 
       </Routes>
     </BrowserRouter>

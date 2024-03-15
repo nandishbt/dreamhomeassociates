@@ -12,20 +12,22 @@
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 36px;
 }
 
 .Main p{
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
     margin-top: 15px;
+    font-size: 20px;
 }
 .Main h2{
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 42px;
 }
 
 .Bank div img{
@@ -33,6 +35,31 @@
     height: 50px;
     margin: 10px;
 
+}
+
+.partnerphoto{
+    width: 400px;
+    height: 200px;
+    margin: 10px 400px;
+ }
+
+.Main{
+    
+}
+
+.Bank__{
+    background: url('../../assets/partner1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.BankOther{
+   
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
 }
 
 /* media query */

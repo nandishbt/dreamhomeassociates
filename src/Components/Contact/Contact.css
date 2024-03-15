@@ -1,9 +1,12 @@
 .contact{
     margin: 80px auto;
+    
     max-height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px;
 }
 .contact-colum{
     flex-basis: 48%;

@@ -1,0 +1,39 @@
+.MainDeco{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/INTERIOR.avif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+.MainDeco h2{
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.MainDeco_btm{
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.MainDeco_desc{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.MainDeco_desc p{
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+

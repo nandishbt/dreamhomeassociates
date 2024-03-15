@@ -1,0 +1,63 @@
+.MainEmail{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: blanchedalmond;
+    padding: 20px 1px;
+    margin-bottom: 10px;
+
+}
+
+.InnerEmail1{
+    width: 45%;
+    height: 50vh;
+   
+    padding-top: 30px;
+}
+
+.InnerEmail1 h1{
+    margin-bottom: 20px;
+    font-weight: 500; 
+    font-size: 40px;
+    
+}
+.InnerEmail1 p{
+    margin-bottom: 20px;
+    font-weight: 300; 
+    font-size: 23px;
+    
+}
+.InnerEmail2{
+    width: 45%;
+    height: 50vh;
+   
+}
+
+.InnerEmail2 input{
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    background: #EBECFE;
+    border: 0;
+
+}
+
+.InnerEmail2 textarea{
+    width: 100%;
+    padding: 10px 20px;
+    background: #EBECFE;
+    border: 0cap;
+}
+
+.EmailBtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(141, 171, 4);
+    font-size: 16px;
+
+}
+

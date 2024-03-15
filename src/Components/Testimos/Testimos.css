@@ -6,9 +6,12 @@
 
 .Tesi_card{
  
-  background-color: rgb(205, 220, 255);
+ 
+  background-color: rgba(157, 214, 238, 0.5);
   margin: 40px 20px;
   border-radius: 5%;
+ 
+  padding: 20px;
 
 
 }
@@ -35,6 +38,15 @@
   font-style: italic;
 }
 
+.position,.TName{
+  color: rgb(8, 8, 155);
+  font-weight: 500;
+}
+
+.description{
+  font-size: 18px;
+  font-weight: 400;
+}
 
 
 

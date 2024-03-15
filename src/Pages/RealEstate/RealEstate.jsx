@@ -6,6 +6,11 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Service_card from '../../Components/Services/Service_card'
 import { BsHouses } from "react-icons/bs";
 
+import REALESTATE from '../../assets/REALESTATE.jpg'
+import commercial from '../../assets/commercial.jpg'
+import firmland from '../../assets/firmland.jpg'
+
+
 const RealEstate = () => {
   return (
    <div>
@@ -29,11 +34,11 @@ const RealEstate = () => {
       </div>
       
 
-      <div className=' display-flex container'>
-      <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={<BsHouses />}/>
-      <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={<BsHouses />}/>
-      <Service_card heading="Interior Design " subtitle="Whether it’s a cozy apartment fabulous Office spaces our experts curate designs that resonate with you." icon={<BsHouses />}/>
-      <Service_card heading="Vastu " subtitle="Harmony starts at Home with Vastu. Our Vastu Experts & Architects design the house where Vastu science meets spirituality" icon={<BsHouses />}/>
+      <div className=' display-flex1 container'>
+      <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={REALESTATE}/>
+      <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={commercial}/>
+      <Service_card heading="Firm Land" subtitle="Discover the Ultimate Gateway Experience of 'Nature Inspired' eco living project, designed exquisitely and beautifully" icon={firmland}/>
+
 
 
 

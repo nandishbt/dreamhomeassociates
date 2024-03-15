@@ -37,7 +37,7 @@ const Hero = () => {
         
         >
             <h1>DREAM HOME <span ref={typedElement}/></h1>
-            <p>Welcome to Dream Home Associates,your trusted partner in achieving your dream of homeownership and beyond</p>
+            <p>Welcome to Dream Home Associates,Your Gateway to Financial Solutions & Real Estate Excellence, your trusted partner in achieving your dream of homeownership and beyond</p>
             {/* <button className='btn'>Explore more <img src={dark} /></button> */}
         </div>
 

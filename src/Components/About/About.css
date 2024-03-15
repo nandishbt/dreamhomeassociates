@@ -25,6 +25,33 @@
     font-weight: 200;
 }
 
+.about_summary {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex; /* Enables multi-line content and color application */
+    flex-direction: column; /* Stacks paragraphs vertically */
+  }
+  
+  .about_summary p:nth-child(1) {
+    background-color: #f08080; /* Light salmon */
+    color: #fff; /* White text */
+  }
+  
+  .about_summary p:nth-child(2) {
+   
+    background-color: rgba(175, 247, 157, 0.5); /* Light green */
+    color: #000; /* Black text */
+  }
+  
+  .about_summary p:nth-child(3) {
+   
+    background-color: rgba(174, 225, 248, 0.5); /* Sky blue */
+    color: #0c0c0c; /* White text */
+  }
+  
+  
+
+
 /* media query */
 
 @media(max-width:700px){

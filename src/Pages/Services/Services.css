@@ -37,6 +37,23 @@
 
 }
 
+.service-btm h3{
+    /* font-size: 20px; */
+    letter-spacing: .5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    font-weight: 400;
+
+}
+
+.other{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 
 
 

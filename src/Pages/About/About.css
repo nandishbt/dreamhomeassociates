@@ -3,6 +3,7 @@
     height: 100vh;
     background: url('../../assets/About.avif');
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,74 +1,45 @@
-.feedmain{
-    width: 100%;
-    min-height: 100vh;
+.MainFeed{
+  height: 100vh;
+  width: 100%;
+ background: url('../../assets/Feedback.avif');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+ 
+
   
-}body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0; /* Light background */
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333; /* Darker text for heading */
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  textarea {
-    height: 100px; /* Adjust height as needed */
-  }
-  
-  .rating-container {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .rating-container input[type="radio"] {
-    display: none;
-  }
-  
-  .rating-container label {
-    font-size: 20px;
-    color: #ccc; /* Unchecked star color */
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .rating-container label:hover {
-    color: #f1c40f; /* Hover color for stars */
-  }
-  
-  .rating-container input[type="radio"]:checked ~ label {
-    color: #f1c40f; /* Checked star color */
-  }
-  
-  button {
-    background-color: #f1c40f; /* Orange button color */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius:10px
-  }
+}
+.Innerdiv{
+  width:800px ;
+  height: 500px;
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.Innerdiv h1{
+  margin-bottom: 10px;
+ width: 100%;
+ text-align: center;
+}
+
+.Innerdiv input ,textarea{
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 0cap; 
+  background-color: aliceblue;
+
+}
+
+.Innerdiv select{
+  border: 0cap; 
+  background-color: aliceblue;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}

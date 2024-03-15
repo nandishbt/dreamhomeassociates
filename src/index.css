@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Whisper&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Whisper&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Whisper&display=swap');
 
 
 
@@ -17,7 +17,7 @@
 }
 
 body{
-  background: #f5f5f5;
+ background-color: rgb(235, 245, 245);
 }
 a{
   text-decoration: none;
@@ -58,6 +58,17 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+
+}
+
+.display-flex1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 
 }
 

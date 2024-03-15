@@ -36,6 +36,10 @@
 
 }
 
+.MainInsight{
+    background-color: rgba(164, 171, 173, 0.5);
+}
+
 /*media query  */
 @media(max-width:750px){
     .insight{
