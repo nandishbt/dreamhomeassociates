@@ -60,7 +60,7 @@ const Loan = () => {
 
 
 
-      <Service_card heading="Bussiness Loan" subtitle="Loans to the Entrepreneurs/Doctors etc for establishing new business/start ups or expansion of existence business " icon={bu}/>
+      <Service_card heading="Bussiness Loan" subtitle="Loans to the Entrepreneurs, Doctors etc for establishing new business, start ups." icon={bu}/>
       <Service_card heading="Vehicle Loan" subtitle="Loan for getting dream vehicles " icon={ve}/>
       
     </div>

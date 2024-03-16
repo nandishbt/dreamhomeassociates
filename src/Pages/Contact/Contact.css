@@ -1,0 +1,21 @@
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    top: 0;
+    left: 0;
+    border: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.m{
+    width: 100%;
+    font-size: 40px;
+    margin: 50px 20px;
+    text-align: center;
+}
