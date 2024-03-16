@@ -10,7 +10,7 @@ import Tesi_card from '../../Components/Testimos/Tesi_card'
 const Testimos = () => {
   return (
     <div className='container test'>
-      <h1>TESTIMONIALS</h1>
+      <h1 className='ttt'>TESTIMONIALS</h1>
       <div className=''>
       <Tesi_card name={<h1 className='TName'>Anirban Banerjee</h1>}  position = {<h3 className='position'>Lead - Cross Functional Service Manager, Unisys India Pvt Ltd</h3>} 
       desc={<h5 className='description'>I recently had the pleasure of working with Dream Home Associates during my home loan process, and I must say that their services were exceptional. Here are some key points that stood out:
