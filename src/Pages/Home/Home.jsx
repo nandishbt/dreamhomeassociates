@@ -16,7 +16,7 @@ import Tesi_card from '../../Components/Testimos/Tesi_card'
 import founder1 from "../../assets/Coufounder1.png"
 import Email from '../../Components/Email/Email'
 
-import LoanCalculator from '../../Components/LoanCal/LoanCalculator'
+
 
 
 
@@ -34,7 +34,7 @@ const Home = () => {
         {/* <Title subtitle='About Us' title='WHO ARE WE' navigate='/About'/>
         <About /> */}
 
-       <LoanCalculator />
+       {/* <LoanCalculator /> */}
 
         <Testimos />
         
