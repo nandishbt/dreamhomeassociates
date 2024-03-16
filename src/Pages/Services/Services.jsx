@@ -62,7 +62,7 @@ const Services = () => {
     </div>
 
     <div className='service-btm container display-flex1'>
-      <h3>We pride ourselves on offering end-to-end services to our customers. From the initial consultation to the final disbursement, we are committed to guiding you through every step of the process. Our team of experts provides assistance with legal procedures, house searches, registration, house design, interior decoration, Vastu consultation, and more.<br></br>
+      <h3>We pride ourselves on offering end-to-end services to our customers. From the initial consultation to the final disbursement, we are committed to guiding you through every step of the process. Our team of experts provide assistance with legal procedures, house searches, registration, house design, interior decoration, Vastu consultation, and more.<br></br>
 
 At Dream Home Associates, we believe in building lasting relationships with our clients by providing exceptional service and personalized solutions. Your dream home journey starts here – let us help you turn your aspirations into reality. Contact us today to embark on your path to homeownership and beyond!
 </h3>

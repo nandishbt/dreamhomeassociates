@@ -51,15 +51,17 @@ const About = () => {
   <Tesi_card img={founder2} name='Ranganath Nandagiri ' desc='Expert from Financial Industry having over 20 years of experience in Stategic planning, Sales & Marketing & Channel Development. Graduate In Commerce.'/>
 
   </div> */}
+
+<About_card/>
 <div className='display-flex1 container '>
 <AboutUsContainer img={founder1} title='Anindita Mukherjee ' desc='Passionate & business oriented Professional having over 15 years of experience across Financial Industries. Sound knowledge in Human Resource Management & Business Acumen. Post Graduate From Kolkata.' />
-<AboutUsContainer img={founder2} title='Ranganath Nandagiri' desc='Expert from Financial Industry having over 20 years of experience in Stategic planning, Sales & Marketing & Channel Development. Graduate In Commerce.' />
+<AboutUsContainer img={founder2} title='Ranganath Nandagiri' desc='Expert from Financial Industry having over 20 years of experience in Strategic planning, Sales & Marketing & Channel Development. Graduate In Commerce.' />
 
 
 </div>
  
   
-  <About_card/>
+  
   
   </>
    

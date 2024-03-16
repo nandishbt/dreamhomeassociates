@@ -18,8 +18,8 @@ const InteriorDec = () => {
 
     <div className='MainDeco_btm container'> 
     <div className='MainDeco_desc'>
-        <p className='decdesc'>Interiors at Unbelievable Cost, <strong>Expert Designers's plans</strong> as per the latest trend keeping all <strong>luxurious design </strong>in view, End to End service from <strong>Design</strong> to <strong>Installation</strong>, Transparent pricind and <strong>On-time</strong> are some factors which make us Unique.</p>
-        <p className='decdesc'>our home should reflect your personality and style. Our interior design services transform spaces into havens of comfort and aesthetics.</p>
+        <p className='decdesc'>Interiors at <strong>Unbelievable Cost</strong>, <strong>Expert Designers's plans</strong> as per the latest trend keeping all <strong>luxurious design </strong>in view, End to End Services from <strong>Design</strong> to <strong>Installation</strong>, Transparent pricing and <strong>On-time Delivery</strong> are some factors which make us Unique.</p>
+        <p className='decdesc'>Your home should reflect your personality and style. Our interior design services transform spaces into havens of comfort and aesthetics.</p>
         <p className='decdesc'> Harmony starts with Home. Improve your Aura & Energies of House and Workspace. WE execute simple and functional arrangements which make your space <strong>Vastu</strong> Perfect.</p>
     </div>
     <div className='display-flex1'>

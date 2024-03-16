@@ -2,6 +2,8 @@ import React from 'react'
 import './feedback.css'
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import Navbar from '../../Components/Navbar/Navbar';
+import Testimos from '../../Components/Testimos/Testimos'
+
 
 const Feedback = () => {
   return (
@@ -33,11 +35,17 @@ const Feedback = () => {
 
         </form>
 
+
       </div>
+
+
      
 
 
      </div>
+
+     <Testimos />
+
     </>
     
   
