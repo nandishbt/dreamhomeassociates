@@ -78,8 +78,8 @@ At Dream Home Associates, we believe in building lasting relationships with our 
       <Service_card heading="Firm Land" subtitle="Discover the Ultimate Gateway Experience of 'Nature Inspired' eco living project, designed exquisitely and beautifully" icon={firmland}/>
 
       <Title subtitle='INTERIOR DECORATION' title='SERVICES' navigate='/InteriorDecoration'/>
-      <Service_card heading="Interiors" subtitle="Interiors at Unbelievable Cost, Expert Designers's plans as per the latest trend keeping all luxurious design in view, End to End service from design to installation." icon={INTERIOR1}/>
-      <Service_card heading="Vastu" subtitle="Harmony starts at Home. The art and science behind Vastu help promote internal peace and calm." icon={compass}/>
+    <Service_card heading="Interiors" subtitle="Whether it’s a cozy apartment or a sprawling villa or fabulous Office spaces our experts curate designs that resonate with you." icon={INTERIOR1}/>
+      <Service_card heading="Vastu" subtitle="The art and science behind Vastu help promote internal peace and calm." icon={compass}/>
 
       <h6 className='other'> OTHER SERVICES</h6>
       <Service_card heading="Balance transfer" subtitle=" Move debt from one credit card to another to consolidate, save on interest" icon={transfer}/>

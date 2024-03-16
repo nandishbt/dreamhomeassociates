@@ -25,13 +25,13 @@
     height: 250px;
     background-color: rgb(7, 32, 53);
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     
  
 }
 
-.heading, .subtitle{
-    margin: 10px 10px;
+.heading {
+    margin: 10px;
 }
 
 .heading{
@@ -40,4 +40,6 @@
 
 .subtitle{
     font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
