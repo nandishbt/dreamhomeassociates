@@ -35,6 +35,16 @@
     font-weight: 300;
 }
 
+/* media query */
+
+@media(max-width:700px){
+    .MainDeco h2{
+        color: white;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+}
+
 
 
 

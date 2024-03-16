@@ -20,7 +20,7 @@ const Email = () => {
             <label>Your Message:</label><br></br>
             <textarea  rows='6' cols='25' placeholder='Enter Your Message ' required/>
 
-            <button className='EmailBtn'>Sumbit</button>
+            <button className='EmailBtn'>Submit</button>
 
            </form>
         </div>

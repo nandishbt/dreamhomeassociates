@@ -27,7 +27,7 @@ const Feedback = () => {
             <option value="option3">5</option>
         </select><br></br>
         <label>YOUR FEEDBACk:</label><br></br>
-        <textarea rows={5} placeholder='Enter yoyr Message' required/><br></br>
+        <textarea rows={5} placeholder='Enter your Message' required/><br></br>
 
         <button className='btn'> SUBMIT</button>
 

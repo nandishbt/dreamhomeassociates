@@ -78,4 +78,13 @@
         
         
     }
+
+    .contact-colum h3{
+        font-size: 32px;
+        font-weight: 300;
+    
+        color: #000F38;
+        font-weight: 500;
+    
+    }
 }
