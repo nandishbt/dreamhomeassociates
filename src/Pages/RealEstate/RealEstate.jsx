@@ -37,7 +37,7 @@ const RealEstate = () => {
       <div className=' display-flex1 container'>
       <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={REALESTATE}/>
       <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={commercial}/>
-      <Service_card heading="Firm Land" subtitle="Discover the Ultimate Gateway Experience of 'Nature Inspired' eco living project, designed exquisitely and beautifully" icon={firmland}/>
+      <Service_card heading="Farm Land" subtitle="Discover the Ultimate Gateway Experience of 'Nature Inspired' eco living project, designed exquisitely and beautifully" icon={firmland}/>
 
 
 
