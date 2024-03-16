@@ -26,8 +26,8 @@ const RealEstate = () => {
     
     <div className='estate_btm'>
 
-      <p className='pp'>	Buying or selling a property? Look no further. Dream Home Associates specializes in real estate transactions.</p>
-      <p className='pp'>	We assist you in finding your ideal home, evaluating properties, negotiating deals, and handling legal formalities.</p>
+      <p className='pp'>Buying or selling a property? Look no further. Dream Home Associates specializes in real estate transactions in both <strong>PREMIUM</strong> and <strong>AFFORDABLE</strong> ranges</p>
+      <p className='pp'>We assist you in finding your Ideal home, Evaluating properties, Negotiating deals, and Handling legal formalities.</p>
       <h1>TYPES OF SERVICES WE PROVIDE</h1>
       
 

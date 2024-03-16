@@ -67,7 +67,7 @@ const Services = () => {
 At Dream Home Associates, we believe in building lasting relationships with our clients by providing exceptional service and personalized solutions. Your dream home journey starts here – let us help you turn your aspirations into reality. Contact us today to embark on your path to homeownership and beyond!
 </h3>
     <Title subtitle='LOAN' title='SERVICES' navigate='/Loan'/>
-    <Service_card heading="Housing Loan" subtitle="Attractive offers for housing Loans for  direct purchase of flats/villas/independent houses." icon={HOMELOAN1}/>
+    <Service_card heading="Home Loan" subtitle="Attractive offers for housing Loans for  direct purchase of flats/villas/independent houses." icon={HOMELOAN1}/>
     <Service_card heading="Mortgage Loan" subtitle="Loan against keeping the residential & commercial properties mortgaged"icon={mortgage}/>
     <Service_card heading="Personal Quick Funds" subtitle=" Quick Funds for multi purpose financial emergencies" icon={personal1}/>
 

@@ -13,7 +13,7 @@
 
 .InnerEmail1{
     width: 45%;
-    height: 50vh;
+    /* height: 50vh; */
    
     padding-top: 30px;
 }
@@ -32,7 +32,7 @@
 }
 .InnerEmail2{
     width: 45%;
-    height: 50vh;
+    /* height: 50vh; */
    
 }
 
@@ -56,8 +56,10 @@
 .EmailBtn{
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: rgb(141, 171, 4);
+    background-color: rgb(241, 215, 16);
     font-size: 16px;
 
 }
-
+.EmailBtn:hover{
+    cursor: pointer;
+}

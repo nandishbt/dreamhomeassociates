@@ -43,9 +43,7 @@
     margin: 10px 400px;
  }
 
-.Main{
-    
-}
+
 
 .Bank__{
     background: url('../../assets/partner1.jpg');
@@ -60,6 +58,14 @@
     margin-bottom: 20px;
     margin-top: 40px;
     
+}
+
+.BankHeading{
+    font-size: 38px;
+}
+
+.Bankdesc{
+    font-size: 22px;
 }
 
 /* media query */

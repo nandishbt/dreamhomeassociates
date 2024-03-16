@@ -44,8 +44,9 @@ const Loan = () => {
  
 
        
-        <div className='container display-flex'>     <p>	Whether you’re a first-time homebuyer or an investor, we offer a range of financial solutions. From home loans to project financing, we guide you through the process, ensuring you make informed decisions.
-<p>	Our team compares various loan options, interest rates, and repayment terms, tailoring them to your unique requirements.
+        <div className='container display-flex'>     
+        <p>Whether you’re a First-time Homebuyer or an investor, we offer a range of <strong>Financial Solution</strong> From Home Loans to Project Financing, we guide you through the process, ensuring you make informed decisions.
+<p>Our team compares various loan options, interest rates, and repayment terms, tailoring them to your unique requirements.
 </p></p></div></div>
 
 <div className='display-flex1 container'>

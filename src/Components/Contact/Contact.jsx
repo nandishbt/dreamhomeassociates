@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className='contact-colum'>
-            <h3>SEND US A MESSAGE</h3>
+            <h3>SEND US A MESSAGE/CALL US</h3>
             {/* <p>Feel free to reach out through contact form or find our contact information below. Your feedback,suggestions, and questions are important to us as we strive to provide exceptional service.</p> */}
             <ul>
                 {/* <li>contact@dreamhome.com</li> */}

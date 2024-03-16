@@ -34,7 +34,7 @@ const Bank = () => {
   return (
         <div className='Main'>
           <h2>ABOUT CLIENTS</h2>
-        <h1>Corporate/Channel partners:</h1>
+        <h1 className='BankHeading'>Corporate/Channel partners:</h1>
         
         <div className='Bank'>
           
@@ -83,13 +83,13 @@ const Bank = () => {
         <div className='Bank__'>
         <div className='BankOther'>
          
-         <h1>Other Partners: </h1>
+         <h1 className='BankHeading'>Other Partners: </h1>
          {/* <img src={partner} className='partnerphoto'/> */}
-         <p>We work with almost 150+ distributors, 100+ Connectors, 100+ Developers </p>
+         <p className='Bankdesc'>We work with almost 150+ distributors, 100+ Connectors, 100+ Developers </p>
          </div>
         <div className='BankOther'>
-        <h1>Customer Base: </h1>
-         <p>We have 2000+ happy customers from all ranges & we cater our services to IT, Financial, Medical, Educational & Self employed background </p>
+        <h1 className='BankHeading'>Customer Base: </h1>
+         <p className='Bankdesc'>We have 2000+ happy customers from all ranges & we cater our services to IT, Financial, Medical, Educational & Self employed background </p>
  
         </div>
         </div>
