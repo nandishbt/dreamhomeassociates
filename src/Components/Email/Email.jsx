@@ -12,7 +12,7 @@ const Email = () => {
         </div>
         <div className='InnerEmail2'>
            <form action="https://api.web3forms.com/submit" method="POST">
-           <input type="hidden" name="access_key" value="f49eecec-7e5d-4ccb-b536-86e1fddddd06"/>
+           <input type="hidden" name="access_key" value="7abbf852-6d0d-442f-bb00-aa65820cd5a1"/>
             <label>Your Name:</label><br></br>
             <input text='name' name='name' placeholder='Enter Your Name '  required /><br></br>
             <label>Your Mail:</label><br></br>

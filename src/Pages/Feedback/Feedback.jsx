@@ -12,7 +12,7 @@ const Feedback = () => {
       <div className='Innerdiv'>
         <h1>SEND YOUR FEEDBACK</h1>
         <form action="https://api.web3forms.com/submit" method="POST"> 
-        <input type="hidden" name="access_key" value="f49eecec-7e5d-4ccb-b536-86e1fddddd06"/>
+        <input type="hidden" name="access_key" value="7abbf852-6d0d-442f-bb00-aa65820cd5a1"/>
 
         <label>YOUR NAME:</label><br></br>
         <input text='name' name='name' placeholder='Enter Your name' required /><br></br>
