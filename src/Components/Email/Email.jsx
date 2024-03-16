@@ -7,7 +7,7 @@ const Email = () => {
     <div className='MainEmail'>
         <div className='InnerEmail1'>
         <h1>SEND US A MAIL</h1>
-        <p>anan@gmail.com</p>
+        <p>Dreamhome.associates2019@gmail.com</p>
 
         </div>
         <div className='InnerEmail2'>
