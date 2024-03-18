@@ -5,7 +5,7 @@ import './About.css'
 import Typed from 'typed.js';
 import  { useEffect ,useRef} from 'react'
 import founder1 from "../../assets/Coufounder1.png"
-import founder2 from "../../assets/Coufounder2.png"
+import founder2 from "../../assets/Founder2.jpeg"
 import Tesi_card from '../../Components/Testimos/Tesi_card'
 import AboutUsContainer from '../../Components/AboutUsContainer.jsx/AboutUsContainer';
 
