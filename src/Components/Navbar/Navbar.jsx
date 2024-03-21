@@ -3,7 +3,7 @@ import './Navbar.css'
 
 import { MdArrowDropDown } from "react-icons/md";
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
-import logo from '../../assets/logo.jpeg'
+import logo2 from '../../assets/logo2.png'
 
 
 import { Link } from 'react-scroll'
@@ -32,7 +32,7 @@ const Navbar = () => {
     
     <nav className={`container ${sticky?'dark-nav':''}`}>   
         {/* <img src={logo} className='logo' /> */}
-        <img src={logo} className='logo'/>  
+        <img src={logo2} className='logo'/>  
         <ul className={Mobilemenu ?'':'hide-mobile-menu'}>
             <li> <NavLink to='/' smooth={true} offset={0} duration={500} >Home</NavLink></li>
             <li> <NavLink to='/Services'smooth={true} offset={-300} duration={500} >Services <MdArrowDropDown /></NavLink >

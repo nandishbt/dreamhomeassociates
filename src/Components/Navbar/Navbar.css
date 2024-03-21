@@ -13,8 +13,10 @@ nav{
 }
 .logo{
     width: 140px;
-    height: 100px;
+    height: 110px;
     border-radius: 10%;
+    margin-right: 20px;
+    font-weight: 900;
     
 }
 
@@ -141,7 +143,7 @@ nav ul li ul li{
     }
 
     .dark-nav{
-        background-color: rgb(139, 70, 154);
+        background-color: rgb(192, 103, 222);
         transition: 0.5s;
         color: rgb(253, 252, 252);
         padding: 20px;
