@@ -16,16 +16,18 @@ import home from '../../assets/home.jpg'
 import HOMELOAN1 from '../../assets/HOMELOAN1.jpg'
 import mortgage from '../../assets/mortgage.jpg'
 import personal1 from '../../assets/personal1.jpg'
+import REALESTATE from '../../assets/REALESTATE.jpg'
+import INTERIOR1 from '../../assets/INTERIOR1.jpg'
 
 
 
 const Services = () => {
   return (
     <div className='main_service display-flex1'>
-      <Service_card heading="Home Loan" subtitle=" Attractive offers for housing Loans for direct purchase of flats/villas/independent houses." icon={HOMELOAN1}/>
-      <Service_card heading="Mortgage Loan" subtitle="Loan against keeping the residential & commercial properties mortgaged"icon={mortgage
-}/>
-      <Service_card heading="Personal Quick Funds" subtitle=" Quick Funds for multi purpose financial emergencies" icon={personal1}/>
+      <Service_card heading="Loans" subtitle=" Attractive offers for housing Loans for direct purchase of flats/villas/independent houses." icon={HOMELOAN1}/>
+      <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={REALESTATE}/>
+
+      <Service_card heading="Interiors" subtitle="Whether it’s a cozy apartment or a sprawling villa or fabulous Office spaces our experts curate designs that resonate with you." icon={INTERIOR1}/>
       
     </div>
     

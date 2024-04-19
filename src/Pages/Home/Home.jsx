@@ -44,36 +44,36 @@ const Home = () => {
    
 
       <div className='container'>
-        {/* <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/> */}
-        {/* <Services /> */}
+        <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/>
+        <Services />
         {/* <Title subtitle='About Us' title='WHO ARE WE' navigate='/About'/>
         <About /> */}
 
-        <h1 className='display-flex1 heading_'>OUR SERVICES</h1>
-        <Title subtitle='LOAN' title='SERVICES' navigate='/Loan'/>
+        {/* <h1 className='display-flex1 heading_'>OUR SERVICES</h1> */}
+        {/* <Title subtitle='LOAN' title='SERVICES' navigate='/Loan'/>
         <div className='display-flex1'>
         
       <Service_card heading="Home Loan" subtitle="Attractive offers for housing Loans for  direct purchase of flats/villas/independent houses." icon={HOMELOAN1}/>
       <Service_card heading="Mortgage Loan" subtitle="Loan against keeping the residential & commercial properties mortgaged"icon={mortgage}/>
       <Service_card heading="Personal Quick Funds" subtitle=" Quick Funds for multi purpose financial emergencies" icon={personal1}/>
 
-        </div>
+        </div> */}
 
-        <Title subtitle='REAL ESTATE' title='SERVICES' navigate='/RealEstate'/>
+        {/* <Title subtitle='REAL ESTATE' title='SERVICES' navigate='/RealEstate'/>
         <div className='display-flex1'>
         
         <Service_card heading="Real Estate " subtitle="Residential Flats, Villas, Plots, and Communities in both affordable and premium ranges" icon={REALESTATE}/>
       <Service_card heading="Commercial" subtitle="Commercial Property Solutions" icon={commercial}/>
       <Service_card heading="Farm Land" subtitle="Discover the Ultimate Gateway Experience of 'Nature Inspired' eco living project, designed exquisitely and beautifully" icon={firmland}/>
 
-        </div>
+        </div> */}
 
-        <Title subtitle='INTERIOR DECORATION' title='SERVICES' navigate='/InteriorDecoration'/>
+        {/* <Title subtitle='INTERIOR DECORATION' title='SERVICES' navigate='/InteriorDecoration'/>
         <div className='display-flex1'>
         
         <Service_card heading="Interiors" subtitle="Whether it’s a cozy apartment or a sprawling villa or fabulous Office spaces our experts curate designs that resonate with you." icon={INTERIOR1}/>
       <Service_card heading="Vastu" subtitle="The art and science behind Vastu help promote internal peace and calm." icon={compass}/>
-        </div>
+        </div> */}
 
      
 
