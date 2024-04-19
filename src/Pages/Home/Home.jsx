@@ -44,10 +44,12 @@ const Home = () => {
    
 
       <div className='container'>
-        <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/>
+        {/* <Title subtitle='Our Services' title='WHAT WE OFFER FOR YOU' navigate='/Services'/> */}
         {/* <Services /> */}
         {/* <Title subtitle='About Us' title='WHO ARE WE' navigate='/About'/>
         <About /> */}
+
+        <h1 className='display-flex1 heading_'>OUR SERVICES</h1>
         <Title subtitle='LOAN' title='SERVICES' navigate='/Loan'/>
         <div className='display-flex1'>
         
